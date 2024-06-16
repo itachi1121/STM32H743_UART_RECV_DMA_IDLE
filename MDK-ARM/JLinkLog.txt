@@ -1,0 +1,32 @@
+
+T4268 000:455 SEGGER J-Link V4.96d Log File (0001ms, 0267ms total)
+T4268 000:455 DLL Compiled: Jan 29 2015 11:45:37 (0001ms, 0267ms total)
+T4268 000:455 Logging started @ 2023-08-11 11:01 (0001ms, 0267ms total)
+T4268 000:456 JLINK_SetWarnOutHandler(...) (0000ms, 0267ms total)
+T4268 000:456 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled May  7 2021 16:26:12
+Hardware: V9.70
+S/N: 59701303
+Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash  returns O.K. (0264ms, 0531ms total)
+T4268 000:720 JLINK_SetErrorOutHandler(...) (0000ms, 0531ms total)
+T4268 000:720 JLINK_ExecCommand("ProjectFile = "E:\Project\h743\led\MDK-ARM\JLinkSettings.ini"", ...)  returns 0x00 (0022ms, 0553ms total)
+T4268 000:742 JLINK_ExecCommand("Device = STM32H743IITx", ...)  returns 0xFFFFFFFF (0000ms, 11050ms total)
+T4268 018:808 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 11050ms total)
+T4268 018:808 JLINK_GetHardwareVersion()  returns 0x17AE8 (0000ms, 11050ms total)
+T4268 018:808 JLINK_GetDLLVersion()  returns 49604 (0000ms, 11050ms total)
+T4268 018:808 JLINK_GetFirmwareString(...) (0000ms, 11050ms total)
+T4268 018:808 JLINK_GetDLLVersion()  returns 49604 (0000ms, 11050ms total)
+T4268 018:808 JLINK_GetCompileDateTime() (0000ms, 11050ms total)
+T4268 018:808 JLINK_GetFirmwareString(...) (0000ms, 11050ms total)
+T4268 018:808 JLINK_GetHardwareVersion()  returns 0x17AE8 (0000ms, 11050ms total)
+T4268 018:808 JLINK_TIF_Select(JLINKARM_TIF_JTAG)  returns 0x00 (0003ms, 11053ms total)
+T4268 018:811 JLINK_SetSpeed(20000) (0000ms, 11053ms total)
+T4268 018:811 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 11053ms total)
+T4268 018:811 JLINK_Reset() >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0x30 JTAG>JLINK_GetIdData(...) >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0x30 JTAG> (0001ms, 11056ms total)
+T4268 018:814 JLINK_GetIdData(...) >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0x30 JTAG> (0002ms, 11058ms total)
+T4268 018:821 JLINK_GetFirmwareString(...) (0000ms, 11058ms total)
+T2DFC 018:821 
+  ***** Error: Connection to emulator lost! (1131ms, 12189ms total)
+T4268 070:042 JLINK_Close() (0000ms, 11058ms total)
+T4268 070:042  (0000ms, 11058ms total)
+T4268 070:042 Closed (0000ms, 11058ms total)
